@@ -16,8 +16,8 @@ public class Main {
 
    public static void main(String args[]){
 	   ArrayList<String> output = new ArrayList<String>(); 	// AL for total output
-	   ArrayList<String> st = new ArrayList<String>(); 		// AL to keep file stuff in
-	   String file = "(TXT FILE GOES HERE)"; 				// Keep file in a nice String
+	   ArrayList<String> st = new ArrayList<String>(); 	// AL to keep file stuff in
+	   String file = "(TXT FILE GOES HERE)"; 		// Keep file in a nice String
 
         try{
         
@@ -35,13 +35,13 @@ public class Main {
 
            br.close(); // Done adding
            
-           for(String str : st) { 				    // Check everything out! Iterate through AL st
+           for(String str : st) { 			// Check everything out! Iterate through AL st
         	   if (str.contains("Twilight")) { 	// If any string on this line contain "Twilight".. (a word, letter, or regular expression can go here)
-        		   output.add(str);				         // Add this line to the output!
+        		   output.add(str);		// Add this line to the output!
         	   }
            }
 
-           System.out.println(st); 		  // Print out the AL st (to make sure it got everything)
+           System.out.println(st); 	// Print out the AL st (to make sure it got everything)
            System.out.println(output);  // Print out the output to make sure it grabbed ONLY what it needs
 
         }catch(Exception e){}
