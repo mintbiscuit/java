@@ -5,7 +5,7 @@
      * lines into an ArrayList as output for the user to view. May come in handy if I need
      * to check out if/where a txt file lists a word/phrase/etc.
      ************************************************************************************/
-
+     
 
 package example;
 
